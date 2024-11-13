@@ -105,7 +105,6 @@ body img {
     border: none;
     border-radius: 5px;
     outline: none;
-    text-align: center;
 }
 
 #todo-list {
@@ -125,13 +124,23 @@ body img {
     align-items: center;
 }
 
+/* Styling for the delete button */
+#todo-list li button {
+    background-color: rgba(204, 208, 205, 0.208);
+    border: none;
+    border-radius: 50%; /* Circular shape */
+    cursor: pointer;
+    font-size: 0.3rem;
+    padding: 5px 8px;
+}
+
 /* Quote styling */
 #quote {
     position: absolute;
     bottom: 20px;
     text-align: center;
     font-size: 1.2rem;
-    color: #302a2a;
+    color: #ffffff;
     width: 100%;
     z-index: 1;
 }
