@@ -9,13 +9,13 @@ function onGeoOK(position){
     fetch(url)
     .then(response => response.json())
     .then(data => {
-        const weather = document.querySelector("#weather span:first-child");
-        const city = document.querySelector("#weather span:nth-child(2)");
+        const city = document.querySelector("#weather span:first-child");
+        const weather = document.querySelector("#weather span:nth-child(2)");
         const temp = document.querySelector("#weather span:last-child");
         const name = data.name;
-        weather.innerText = data.weather[0].main;
         city.innerText = name;
-        temp.innerText = `${Math.floor(data.main.temp)}˚C`;})
+        weather.innerText = data.weather[0].main;
+        temp.innerText = `${data.main.temp}˚C`;})
 
     }
 
