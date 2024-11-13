@@ -1,2 +1,3 @@
 # momentum
-JS study
+Chrome Extention Momentum Clone Coding Using JavaScript
+
