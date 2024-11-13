@@ -149,6 +149,11 @@ body img {
     display: block;
 }
 
+#quote span:last-child{
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
 #weather {
     position: fixed;
     top: 10px;
