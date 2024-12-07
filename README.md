@@ -1,4 +1,4 @@
-# JavaScript Project: Clone Coding Momentum
+# JavaScript Project: Clone-Coding Momentum
 Chrome Extention Momentum Clone Coding Using JavaScript
 
 **background.js:**
